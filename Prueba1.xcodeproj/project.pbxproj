@@ -23,6 +23,7 @@
 		42E70C6814703EFC0053B80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E70C4014703EFB0053B80B /* Foundation.framework */; };
 		42E70C7014703EFC0053B80B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42E70C6E14703EFC0053B80B /* InfoPlist.strings */; };
 		42E70C7314703EFC0053B80B /* Prueba1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E70C7214703EFC0053B80B /* Prueba1Tests.m */; };
+		42E70C7D147040790053B80B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E70C7C147040790053B80B /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,26 +41,27 @@
 		42E70C3E14703EFB0053B80B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42E70C4014703EFB0053B80B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42E70C4214703EFB0053B80B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42E70C4614703EFB0053B80B /* Prueba1-Info.plist */ = {isa = PBXFileReference; path = "Prueba1-Info.plist"; sourceTree = "<group>"; };
+		42E70C4614703EFB0053B80B /* Prueba1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prueba1-Info.plist"; sourceTree = "<group>"; };
 		42E70C4814703EFB0053B80B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42E70C4A14703EFB0053B80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42E70C4C14703EFB0053B80B /* Prueba1-Prefix.pch */ = {isa = PBXFileReference; path = "Prueba1-Prefix.pch"; sourceTree = "<group>"; };
-		42E70C4D14703EFB0053B80B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42E70C4C14703EFB0053B80B /* Prueba1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prueba1-Prefix.pch"; sourceTree = "<group>"; };
+		42E70C4D14703EFB0053B80B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42E70C4E14703EFB0053B80B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42E70C5014703EFB0053B80B /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		42E70C5014703EFB0053B80B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		42E70C5114703EFB0053B80B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		42E70C5314703EFB0053B80B /* DataViewController.h */ = {isa = PBXFileReference; path = DataViewController.h; sourceTree = "<group>"; };
+		42E70C5314703EFB0053B80B /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
 		42E70C5414703EFB0053B80B /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		42E70C5614703EFB0053B80B /* ModelController.h */ = {isa = PBXFileReference; path = ModelController.h; sourceTree = "<group>"; };
+		42E70C5614703EFB0053B80B /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		42E70C5714703EFB0053B80B /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		42E70C5A14703EFC0053B80B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		42E70C5D14703EFC0053B80B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		42E70C6414703EFC0053B80B /* Prueba1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prueba1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E70C6514703EFC0053B80B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		42E70C6D14703EFC0053B80B /* Prueba1Tests-Info.plist */ = {isa = PBXFileReference; path = "Prueba1Tests-Info.plist"; sourceTree = "<group>"; };
+		42E70C6D14703EFC0053B80B /* Prueba1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prueba1Tests-Info.plist"; sourceTree = "<group>"; };
 		42E70C6F14703EFC0053B80B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42E70C7114703EFC0053B80B /* Prueba1Tests.h */ = {isa = PBXFileReference; path = Prueba1Tests.h; sourceTree = "<group>"; };
+		42E70C7114703EFC0053B80B /* Prueba1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prueba1Tests.h; sourceTree = "<group>"; };
 		42E70C7214703EFC0053B80B /* Prueba1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prueba1Tests.m; sourceTree = "<group>"; };
+		42E70C7C147040790053B80B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		42E70C2F14703EFB0053B80B = {
 			isa = PBXGroup;
 			children = (
+				42E70C7C147040790053B80B /* Icon.png */,
 				42E70C4414703EFB0053B80B /* Prueba1 */,
 				42E70C6B14703EFC0053B80B /* Prueba1Tests */,
 				42E70C3D14703EFB0053B80B /* Frameworks */,
@@ -237,6 +240,7 @@
 				42E70C4914703EFB0053B80B /* InfoPlist.strings in Resources */,
 				42E70C5B14703EFC0053B80B /* MainStoryboard_iPhone.storyboard in Resources */,
 				42E70C5E14703EFC0053B80B /* MainStoryboard_iPad.storyboard in Resources */,
+				42E70C7D147040790053B80B /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
